@@ -1,0 +1,10 @@
+[project]
+name = "biliapi"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=45.0.6",
+    "requests>=2.32.5",
+    "rsa>=4.9.1",
+]
