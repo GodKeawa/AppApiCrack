@@ -16,8 +16,9 @@
 B站app的主页接口在未登录时只会返回部分信息, 需要登录后才能获取完整信息, 比如IP地址等
 
 ## Qidian 起点中文网
-提供QdSign等签名的解析加密示例
+提供QdSign和Qd_info签名的解析加密示例
 因为起点可以不登录使用，故尚未破解登录接口
+`crypto.py`中提供了QdSign和Qd_info的解析函数，使用unsign和uninfo解析出明文，使用ensign和eninfo进行签名
 
 ## Environment
 使用python的uv构建环境, 或者安装pyproject.toml中的依赖
